@@ -1,0 +1,322 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+   
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+                   url(./images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: rgb(212, 207, 207);
+    color: rgb(19, 19, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    top: 0;
+    
+    
+   
+    
+    
+    
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 2.3em;
+}
+.logo span{
+   color: red; 
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu a:first-child{
+    color: rgb(247, 23, 23);
+}
+.menu a:hover{
+     color: red;
+}
+.icon i{
+    font-size: 20px;
+}
+.icon i:hover{
+    color: red;
+}
+.icon a{
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.h-text{
+    color:rgb(213, 221, 204);
+    max-width: 200px;
+    position: absolute;
+    top: 23%;
+    left: 3.5%;
+}
+#Search{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+h.text input{
+    width: 60%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.active{
+    padding: 100px;
+}
+.bullets{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bullets ul li{
+    list-style: none;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+}
+.bullets ul li:hover{
+    color: black;
+    background-color:rgb(213, 23, 23);
+    border-radius: 10px;
+}
+li.active{
+    color: black;
+    background-color:rgb(213, 23, 23);
+    border-radius: 10px;
+}
+
+
+
+#bulletss{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    
+}
+.bulletss{
+    text-align: center;
+
+}
+.bulletss img{
+    width: 80%;
+    height: 60%;
+    border-radius: 8px;
+    justify-content: space-between;
+    display: flex;
+    margin: 50px;
+}
+
+
+#bulletsss{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    
+}
+.bulletsss{
+    text-align: center;
+
+}
+.bulletsss img{
+    width: 80%;
+    height: 60%;
+    border-radius: 8px;
+    justify-content: space-between;
+    display: flex;
+    margin: 50px;
+}
+.container2 {
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px  20px;
+    display: block;
+    
+}
+*{
+margin: 0;
+padding: 0;
+  text-decoration: none;
+  font-style: normal;
+  
+
+}
+.div{
+    display: block;
+}
+
+.container2 button{
+    
+    color: red;
+    
+}
+
+.container2 i{
+    border-color: black;
+    list-style: none;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    outline: none;
+   
+   
+
+}
+.container2 i:hover{
+    color: white;
+    background-color:red;
+    border-radius: 10px;
+    
+   
+}
+    
+
+
+
+/*--aboutt*/--->
+.active{
+    padding: 100px;
+}
+.about{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about ul li{
+    list-style: none;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+}
+.about ul li:hover{
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+}
+.abouts {
+    width: 100%;
+    height: 90vh;
+    background: url(./images/about.jpg);
+}
+.abouts h1{
+    font-family: serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.abouts h1{
+    width: 95%;
+    padding: 30px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+
+</*--contact us--*/>
+
+.active{
+    padding: 100px;
+}
+.contact{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact ul li{
+    list-style: none;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+}
+.contact ul li:hover{
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+}
+.content .content{
+    max-width: 80px;
+    text-align: center;
+
+
+
+}
+.container3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container3.ContactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container3.ContactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container3.ContactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: red;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container3.ContactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: blue;
+    flex-direction: column;
+    font-weight:300 ;
+}
